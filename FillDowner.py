@@ -1,4 +1,13 @@
 import csv
+import tkFileDialog
+
+				
+with open('121 Computers in All Macs.csv', 'r') as f, open('results.csv', 'w') as results:
+    reader = csv.reader(f)
+    writer = csv.writer(results)
+
+    for row in reader:
+    	process_rows(row)
 
 def process_rows(row):
 	global a
@@ -16,14 +25,6 @@ def process_rows(row):
 		
 	writer.writerow(row)
 	print row
-
-				
-with open('121 Computers in All Macs.csv', 'r') as f, open('results.csv', 'w') as results:
-    reader = csv.reader(f)
-    writer = csv.writer(results)
-
-    for row in reader:
-    	process_rows(row)
     	
 #    print f
 #     print
