@@ -70,6 +70,3 @@ get_results_file()
     
 
 # get_columns()
-
-    # 14696 rows total
-    # 11839 blanks
