@@ -51,22 +51,22 @@ def process_rows(row):
 	writer.writerow(row)
 	print row
  
- # Do it!
-get_original_file()
-get_results_file()
+# Do it!
+originFile = get_original_file()
+resultFile = get_results_file()
 
-# # Open the files and process them			
-# with open('121 Computers in All Macs.csv', 'r') as f, open('results.csv', 'w') as results:
-#     reader = csv.reader(f)
-#     writer = csv.writer(results)
-# 
-#     for row in reader:
-#     	process_rows(row)
-    	
+# Open the files and process them			
+with open(originFile, 'r') as f, open(resultFile, 'w') as results:
+    reader = csv.reader(f)
+    writer = csv.writer(results)
+ 
+    for row in reader:
+    	process_rows(row)
+      	
 # def get_columns():
 # 	empty_columns = list(raw_input("Which columns need to be filled? "))
 # 	empty_columns = map(int, empty_columns)
 # 	print empty_columns
-    
-
+#       
+#   
 # get_columns()
