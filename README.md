@@ -15,10 +15,10 @@ I could open it with Excel and "fill down" for each blank section; but, I had 14
 
 So, this is a good learning opportunity for me with Python.
 
-###What?
+### What?
 This script examines each row, checking the requested fields (currently 1 and 2 since that is what I initially needed) for blanks. If it finds a blank, it changes it to that field's entry from the previous non-blank record.
 
-###Future?
+### Future?
 As I'm learning Python, I want to:
 
 - add GUI dialogs to select the original file and name the results file
