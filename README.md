@@ -7,9 +7,9 @@ I was working with a report from JSS that my superiors wanted sorted differently
 First Field  | Second Field
 ------------- | -------------
 Rob  | Item 1
-  | Item 2
+[blank]  | Item 2
 John  | Item 1
-  | Item 2
+[blank]  | Item 2
   
 I could open it with Excel and "fill down" for each blank section; but, I had 14k rows. And, I have no interest in learning VBScript to create an Excel macro.
 
